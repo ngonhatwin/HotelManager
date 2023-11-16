@@ -1,0 +1,64 @@
+﻿<Window x:Class="HotelManagementSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagementSystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1100" Width="696">
+    <Grid>
+        <DockPanel Background="red" Margin="0,0,0,998" />
+        <Label Content="HOTEL MANAGEMENT SYSTEM" HorizontalAlignment="Center" Margin="0,14,0,0" VerticalAlignment="Top" FontSize="22" Foreground="#FFFFFF" />
+        <DockPanel Background="DodgerBlue" Margin="0,58,0,975" />
+        <DockPanel Background="red" Margin="0,989,0,0" />
+        <Label Content="PowerByNhatWin" HorizontalAlignment="Center" Margin="0,1004,0,0" VerticalAlignment="Top" Foreground="White" FontSize="20"/>
+        <Button Content="ROOMS" HorizontalAlignment="Left" Margin="28,119,0,0" VerticalAlignment="Top" Height="44" Width="93" BorderBrush="Red" Foreground="#FFE61E1E" Click="Show_Room_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10" IsEnabled="False">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="STUDENTS" HorizontalAlignment="Left" Margin="159,119,0,0" VerticalAlignment="Top" Height="44" Width="98" BorderBrush="Red" Foreground="#FFEF3939" Click="Show_Student_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="EMPLOYEES" HorizontalAlignment="Center" Margin="0,119,0,0" VerticalAlignment="Top" Height="44" Width="108" BorderBrush="Red" Foreground="#FFDA2525" Click="Show_Emloyee_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="FEES" HorizontalAlignment="Left" Margin="437,119,0,0" VerticalAlignment="Top" Height="44" Width="101" BorderBrush="Red" Foreground="#FFD02E2E">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button Content="SALARY" HorizontalAlignment="Left" Margin="570,119,0,0" VerticalAlignment="Top" Height="44" Width="101" BorderBrush="Red" Foreground="#FFCE2D2D">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <DockPanel Background="DodgerBlue" Margin="0,183,0,872" />
+        <Label Content="STUDENT HOTELS" HorizontalAlignment="Center" Margin="0,212,0,0" VerticalAlignment="Top" FontSize="24" Foreground="#FF1C47B1" Height="41" Width="204"/>
+        <Image HorizontalAlignment="Center" Margin="0,302,0,0" VerticalAlignment="Top" Source="/picturehotel.jpg" Width="672" Height="507" />
+    </Grid>
+</Window>
