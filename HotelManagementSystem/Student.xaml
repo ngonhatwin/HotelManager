@@ -38,7 +38,7 @@
         <Button Content="ADD" HorizontalAlignment="Left" Margin="80,410,0,0" VerticalAlignment="Top" Height="34" Width="45" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
         <Button Content="UPDATE" HorizontalAlignment="Left" Margin="176,410,0,0" VerticalAlignment="Top" Width="46" Height="34" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
         <Button Content="DELETE" HorizontalAlignment="Left" Margin="283,410,0,0" VerticalAlignment="Top" Height="34" Width="43" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
-        <Button Content="BACK" HorizontalAlignment="Left" Margin="896,417,0,0" VerticalAlignment="Top" Height="34" Width="44" Foreground="#FF1B6311" BorderBrush="White" Background="Beige" />
+        <Button Content="BACK" HorizontalAlignment="Left" Margin="896,417,0,0" VerticalAlignment="Top" Height="34" Width="44" Foreground="#FF1B6311" BorderBrush="White" Background="Beige" Click="Back_Click" />
 
     </Grid>
 </Window>
