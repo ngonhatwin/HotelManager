@@ -30,5 +30,10 @@ namespace HotelManagementSystem
             mainWindow.Show();
             this.Hide();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

@@ -13,7 +13,7 @@
         <Label Content="Name" HorizontalAlignment="Left" Margin="68,160,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFC51C1C"/>
         <Label Content="Sex" HorizontalAlignment="Left" Margin="71,204,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFC72C2C"/>
         <Label Content="Address" HorizontalAlignment="Left" Margin="68,238,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFB12727"/>
-        <TextBox HorizontalAlignment="Left" Margin="177,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Margin="177,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" Height="24" FontSize="14" TextAlignment="Center"/>
         <TextBox HorizontalAlignment="Left" Margin="177,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
         <TextBox HorizontalAlignment="Left" Margin="176,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
         <RadioButton Content="Male" HorizontalAlignment="Left" Margin="177,212,0,0" VerticalAlignment="Top"/>
@@ -23,11 +23,16 @@
         <Label Content="Position" HorizontalAlignment="Left" Margin="68,293,0,0" VerticalAlignment="Top" Width="91" FontSize="14" Foreground="#FFE4B32C"/>
         <Label Content="Emloyee Status" HorizontalAlignment="Left" Margin="68,335,0,0" VerticalAlignment="Top" Width="102" FontSize="14" Foreground="#FFE4B32C"/>
         <Label HorizontalAlignment="Left" Margin="536,170,0,0" VerticalAlignment="Top"/>
-        <Label Content="Emloyee List" HorizontalAlignment="Left" Margin="636,81,0,0" VerticalAlignment="Top" Height="32" Width="103" Foreground="#FFDE3131" FontSize="16" FontWeight="Bold"/>
-        <ListView d:ItemsSource="{d:SampleData ItemCount=0}" Margin="364,116,30,128">
+        <Label Content="Emloyee List" HorizontalAlignment="Left" Margin="592,88,0,0" VerticalAlignment="Top" Height="38" Width="150" Foreground="#FFC531DE" FontSize="24" FontWeight="Bold" FontStyle="Italic"/>
+        <ListView d:ItemsSource="{d:SampleData ItemCount=0}" Margin="364,131,30,128">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn/>
+                    <GridViewColumn Header="ID" Width="50"/>
+                    <GridViewColumn Header="Name" Width="150"/>
+                    <GridViewColumn Header="Sex" Width="50"/>
+                    <GridViewColumn Header="Address" Width="150"/>
+                    <GridViewColumn Header="Position" Width="100"/>
+                    <GridViewColumn Header="Status" Width="100"/>
                 </GridView>
             </ListView.View>
         </ListView>

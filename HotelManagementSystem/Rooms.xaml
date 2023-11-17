@@ -16,7 +16,9 @@
         <ListView d:ItemsSource="{d:SampleData ItemCount=0}" Margin="450,135,50,142">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn/>
+                    <GridViewColumn Header="Room Number" Width="100"/>
+                    <GridViewColumn Header="Room Status" Width="100"/>
+                    <GridViewColumn Header="Booked" Width="100"/>
                 </GridView>
             </ListView.View>
         </ListView>
@@ -31,9 +33,9 @@
         <RadioButton Content="No" HorizontalAlignment="Left" Margin="249,266,0,0" VerticalAlignment="Top" FontSize="16"/>
         <DockPanel LastChildFill="False" Margin="0,417,0,0" Background="Orange"/>
         <Label Content="PowerByNhatWin" Margin="0,417,0,0" FontWeight="Bold" FontSize="24" Foreground="#FF171BEF" Width="230" HorizontalAlignment="Left" FontFamily="Freestyle Script"/>
-        <Button Content="ADD" HorizontalAlignment="Left" Margin="82,373,0,0" VerticalAlignment="Top" Height="34" Width="45" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
-        <Button Content="UPDATE" HorizontalAlignment="Left" Margin="176,373,0,0" VerticalAlignment="Top" Width="46" Height="34" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
-        <Button Content="DELETE" HorizontalAlignment="Left" Margin="269,373,0,0" VerticalAlignment="Top" Height="34" Width="43" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
-        <Button Content="BACK" HorizontalAlignment="Left" Margin="578,378,0,0" VerticalAlignment="Top" Height="34" Width="44" Foreground="#FF1B6311" BorderBrush="White" Background="Beige" Click="Back_Click"/>
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="82,368,0,0" VerticalAlignment="Top" Height="34" Width="45" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
+        <Button Content="UPDATE" HorizontalAlignment="Left" Margin="176,368,0,0" VerticalAlignment="Top" Width="46" Height="34" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
+        <Button Content="DELETE" HorizontalAlignment="Left" Margin="269,368,0,0" VerticalAlignment="Top" Height="34" Width="43" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
+        <Button Content="BACK" HorizontalAlignment="Left" Margin="706,368,0,0" VerticalAlignment="Top" Height="34" Width="44" Foreground="#FF1B6311" BorderBrush="White" Background="Beige" Click="Back_Click"/>
     </Grid>
 </Window>

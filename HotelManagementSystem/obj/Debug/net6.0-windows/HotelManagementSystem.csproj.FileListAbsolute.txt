@@ -25,3 +25,7 @@ C:\Users\Computer\source\repos\HotelManagementSystem\HotelManagementSystem\obj\D
 C:\Users\Computer\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\net6.0-windows\Student.baml
 C:\Users\Computer\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\net6.0-windows\Emloyee.g.cs
 C:\Users\Computer\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\net6.0-windows\Emloyee.baml
+C:\Users\Computer\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\net6.0-windows\Fees.g.cs
+C:\Users\Computer\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\net6.0-windows\Fees.baml
+C:\Users\Computer\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\net6.0-windows\Salary.g.cs
+C:\Users\Computer\source\repos\HotelManagementSystem\HotelManagementSystem\obj\Debug\net6.0-windows\Salary.baml

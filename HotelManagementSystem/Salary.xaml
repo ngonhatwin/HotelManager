@@ -1,0 +1,46 @@
+﻿<Window x:Class="HotelManagementSystem.Salary"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelManagementSystem"
+        mc:Ignorable="d"
+        Title="Salary" Height="638" Width="1000">
+    <Grid>
+        <DockPanel LastChildFill="False" Margin="0,0,0,555" Background="Orange"/>
+        <Label Content="SALARY" HorizontalAlignment="Center" Margin="0,5,0,0" VerticalAlignment="Top" Width="100" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Salary ID" HorizontalAlignment="Left" Margin="67,166,0,0" VerticalAlignment="Top" Width="112" FontSize="18" FontWeight="Bold" Foreground="#FFDE1C1C"/>
+        <Label Content="Emloyee ID" HorizontalAlignment="Left" Margin="69,231,0,0" VerticalAlignment="Top" Width="112" FontSize="18" FontWeight="Bold" Foreground="#FFDE1C1C"/>
+        <Label Content="Emloyee Name" HorizontalAlignment="Left" Margin="67,0,0,0" VerticalAlignment="Center" Width="137" FontSize="18" FontWeight="Bold" Foreground="#FFDE1C1C"/>
+        <Label Content="Position" HorizontalAlignment="Left" Margin="69,352,0,0" VerticalAlignment="Top" Width="137" FontSize="18" FontWeight="Bold" Foreground="#FFDE1C1C"/>
+        <Label Content="Month" HorizontalAlignment="Left" Margin="69,404,0,0" VerticalAlignment="Top" Width="112" FontSize="18" FontWeight="Bold" Foreground="#FFDE1C1C"/>
+        <ComboBox HorizontalAlignment="Left" Margin="229,237,0,0" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <DatePicker HorizontalAlignment="Left" Margin="229,404,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="229,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="34" TextAlignment="Center" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Margin="229,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="168" Height="34" TextAlignment="Center" FontSize="14"/>
+        <Label HorizontalAlignment="Left" Margin="545,190,0,0" VerticalAlignment="Top"/>
+        <Label Content="Salary" HorizontalAlignment="Left" Margin="652,87,0,0" VerticalAlignment="Top" Height="44" Width="90" Foreground="#FFB531DE" FontSize="24" FontWeight="Bold" FontStyle="Italic"/>
+        <ListView d:ItemsSource="{d:SampleData ItemCount=0}" Margin="427,136,21,108">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="ID" Width="50"/>
+                    <GridViewColumn Header="E ID" Width="50"/>
+                    <GridViewColumn Header="Emloyee Name" Width="150"/>
+                    <GridViewColumn Header="Position" Width="100"/>
+                    <GridViewColumn Header="Month" Width="100"/>
+                    <GridViewColumn Header="Amount" Width="115"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="69,509,0,0" VerticalAlignment="Top" Height="34" Width="45" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
+        <Button Content="UPDATE" HorizontalAlignment="Left" Margin="184,509,0,0" VerticalAlignment="Top" Width="46" Height="34" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
+        <Button Content="DELETE" HorizontalAlignment="Left" Margin="292,509,0,0" VerticalAlignment="Top" Height="34" Width="42" Foreground="#FF1B6311" BorderBrush="White" Background="Beige"/>
+        <Button Content="BACK" HorizontalAlignment="Left" Margin="924,531,0,0" VerticalAlignment="Top" Height="34" Width="44" Foreground="#FF1B6311" BorderBrush="White" Background="Beige" Click="Back_Click"  />
+        <DockPanel LastChildFill="False" Margin="0,570,0,0" Background="Orange"/>
+        <Label Content="PowerByNhatWin" HorizontalAlignment="Left" Margin="4,570,0,0" VerticalAlignment="Top" Foreground="#FF223C7B" FontSize="22" FontFamily="Edwardian Script ITC" Height="52" />
+        <TextBox HorizontalAlignment="Left" Margin="229,352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="34" TextAlignment="Center" FontSize="14"/>
+        <Label Content="Amount" HorizontalAlignment="Left" Margin="69,449,0,0" VerticalAlignment="Top" Width="112" FontSize="18" FontWeight="Bold" Foreground="#FFDE1C1C"/>
+        <TextBox HorizontalAlignment="Left" Margin="229,449,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154" Height="34" TextAlignment="Center" FontSize="14"/>
+
+    </Grid>
+</Window>

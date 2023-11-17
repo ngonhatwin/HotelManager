@@ -47,6 +47,7 @@ namespace HotelManagementSystem
         {
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
+            this.Hide();
         }
     }
 }

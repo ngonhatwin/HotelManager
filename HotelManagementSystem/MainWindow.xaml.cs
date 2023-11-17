@@ -45,5 +45,19 @@ namespace HotelManagementSystem
             myemloyee.Show();
             this.Hide();
         }
+
+        private void Show_Fees_Click(object sender, RoutedEventArgs e)
+        {
+            Fees myfees = new Fees();
+            myfees.Show();
+            this.Hide();
+        }
+
+        private void Show_Salary_Click(object sender, RoutedEventArgs e)
+        {
+            Salary mysalary = new Salary();
+            mysalary.Show();
+            this.Hide();
+        }
     }
 }

@@ -14,7 +14,7 @@
         <Label Content="Sex" HorizontalAlignment="Left" Margin="71,204,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFC72C2C"/>
         <Label Content="Address" HorizontalAlignment="Left" Margin="68,278,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFB12727"/>
         <Label Content="College" HorizontalAlignment="Left" Margin="71,243,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFB52323"/>
-        <TextBox HorizontalAlignment="Left" Margin="177,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Margin="177,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" Height="24" FontSize="14" TextAlignment="Center" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Margin="177,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
         <TextBox HorizontalAlignment="Left" Margin="177,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
         <TextBox HorizontalAlignment="Left" Margin="177,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
@@ -25,11 +25,17 @@
         <Label Content="Room Num" HorizontalAlignment="Left" Margin="68,335,0,0" VerticalAlignment="Top" Width="91" FontSize="14" Foreground="#FFE4B32C"/>
         <Label Content="Student Status" HorizontalAlignment="Left" Margin="68,365,0,0" VerticalAlignment="Top" Width="102" FontSize="14" Foreground="#FFE4B32C"/>
         <Label HorizontalAlignment="Left" Margin="536,170,0,0" VerticalAlignment="Top"/>
-        <Label Content="Student List" HorizontalAlignment="Left" Margin="641,118,0,0" VerticalAlignment="Top" Height="32" Width="98" Foreground="#FFDE3131" FontSize="16" FontWeight="Bold"/>
+        <Label Content="Student List" HorizontalAlignment="Left" Margin="608,111,0,0" VerticalAlignment="Top" Height="44" Width="145" Foreground="#FFC531DE" FontSize="24" FontWeight="Bold" FontStyle="Italic"/>
         <ListView d:ItemsSource="{d:SampleData ItemCount=0}" Margin="440,160,60,128">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn/>
+                    <GridViewColumn Header="ID" Width="30"/>
+                    <GridViewColumn Header="Name" Width="100"/>
+                    <GridViewColumn Header="Sex" Width="40"/>
+                    <GridViewColumn Header="College" Width="100"/>
+                    <GridViewColumn Header="Address" Width="100"/>
+                    <GridViewColumn Header="R N" Width="30"/>
+                    <GridViewColumn Header="Status" Width="100"/>
                 </GridView>
             </ListView.View>
         </ListView>

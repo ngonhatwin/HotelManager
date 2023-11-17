@@ -39,7 +39,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="FEES" HorizontalAlignment="Left" Margin="437,119,0,0" VerticalAlignment="Top" Height="44" Width="101" BorderBrush="Red" Foreground="#FFD02E2E">
+        <Button Content="FEES" HorizontalAlignment="Left" Margin="437,119,0,0" VerticalAlignment="Top" Height="44" Width="101" BorderBrush="Red" Foreground="#FFD02E2E" Click="Show_Fees_Click">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
@@ -48,7 +48,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="SALARY" HorizontalAlignment="Left" Margin="570,119,0,0" VerticalAlignment="Top" Height="44" Width="101" BorderBrush="Red" Foreground="#FFCE2D2D">
+        <Button Content="SALARY" HorizontalAlignment="Left" Margin="570,119,0,0" VerticalAlignment="Top" Height="44" Width="101" BorderBrush="Red" Foreground="#FFCE2D2D" Click="Show_Salary_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="10">
