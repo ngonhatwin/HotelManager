@@ -14,7 +14,7 @@
         <Label Content="Sex" HorizontalAlignment="Left" Margin="71,204,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFC72C2C"/>
         <Label Content="Address" HorizontalAlignment="Left" Margin="68,278,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFB12727"/>
         <Label Content="College" HorizontalAlignment="Left" Margin="71,243,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFB52323"/>
-        <TextBox HorizontalAlignment="Left" Margin="177,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" Height="24" FontSize="14" TextAlignment="Center" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Margin="177,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" Height="24" FontSize="14" TextAlignment="Center" />
         <TextBox HorizontalAlignment="Left" Margin="177,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
         <TextBox HorizontalAlignment="Left" Margin="177,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>
         <TextBox HorizontalAlignment="Left" Margin="177,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156" Height="24" FontSize="14"/>

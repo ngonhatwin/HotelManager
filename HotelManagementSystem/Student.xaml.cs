@@ -31,9 +31,6 @@ namespace HotelManagementSystem
             this.Hide();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
+        
     }
 }
