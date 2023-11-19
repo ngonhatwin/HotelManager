@@ -53,7 +53,7 @@ namespace HotelManagementSystem {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HotelManagementSystem;V1.0.0.0;component/student.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HotelManagementSystem;component/student.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Student.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
